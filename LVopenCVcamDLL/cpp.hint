@@ -1,0 +1,2 @@
+#define LVOPENCVCAMDLL_API __declspec(dllexport)
+#define LVOPENCVCAMDLL_API __declspec(dllimport)

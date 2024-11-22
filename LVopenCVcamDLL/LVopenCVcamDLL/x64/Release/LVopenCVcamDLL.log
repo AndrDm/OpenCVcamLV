@@ -1,0 +1,8 @@
+﻿  LVopenCVcamDLL.cpp
+     Creating library D:\LVopenCV\LVopenCVcamDLL\x64\Release\LVopenCVcamDLL.lib and object D:\LVopenCV\LVopenCVcamDLL\x64\Release\LVopenCVcamDLL.exp
+  Generating code
+  0 of 46 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LVopenCVcamDLL.vcxproj -> D:\LVopenCV\LVopenCVcamDLL\x64\Release\LVopenCVcamDLL.dll

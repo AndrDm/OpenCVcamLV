@@ -1,2 +1,4 @@
 # OpenCVcamLV
-Example how to perform acquisition with OpenCV in LabVIEW
+Example how to perform acquisition with OpenCV in LabVIEW for NI Forum:
+
+![](assets/OpenCVcamSnippet.png)
