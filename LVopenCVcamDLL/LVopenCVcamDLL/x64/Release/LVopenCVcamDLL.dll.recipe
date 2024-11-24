@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\LVopenCV\LVopenCVcamDLL\x64\Release\LVopenCVcamDLL.dll</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\OpenCVcamLV-main\LVopenCVcamDLL\x64\Release\LVopenCVcamDLL.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
