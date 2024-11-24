@@ -1,4 +1,15 @@
 # OpenCVcamLV
+Update 24-Nov-2024:
+
+* CLFNs turned to SubVIs
+* Error handling added
+
+Grab Example:
+
+![](assets/grab_example_v02.png)
+
+22-Nov-2024:
+
 Example how to perform acquisition with OpenCV in LabVIEW for [NI Forum](https://forums.ni.com/t5/LabVIEW/Labview-community-and-IMAQdx/m-p/4410512#M1299707):
 
 ![](assets/OpenCVcamSnippet.png)
