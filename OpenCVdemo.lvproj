@@ -13,6 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="OpenCV DLLs" Type="Folder">
+			<Item Name="opencv_videoio_msmf4100_64.dll" Type="Document" URL="../opencv_videoio_msmf4100_64.dll"/>
+			<Item Name="opencv_world4100.dll" Type="Document" URL="../opencv_world4100.dll"/>
+		</Item>
 		<Item Name="OpenCVcamLV.lvlib" Type="Library" URL="../OpenCVcamLV/OpenCVcamLV.lvlib"/>
 		<Item Name="OpenCVdemo.vi" Type="VI" URL="../OpenCVdemo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -62,6 +66,58 @@
 			</Item>
 			<Item Name="LVopenCVcamDLL.dll" Type="Document" URL="../LVopenCVcamDLL.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="OpenCVdemo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9E65D361-CCD4-438C-9EEA-F936647BF96E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AD757CE1-8BCC-4CE5-B6FB-BB10BB70CD19}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D497D038-1D24-492D-AF46-FF4F517BA730}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OpenCVdemo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/OpenCVdemo</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F2DB071D-A2F4-4874-9076-1CD91FF9EA94}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">OpenCVdemo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OpenCVdemo/OpenCVdemo.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/OpenCVdemo/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D158B2A2-6FEB-4E39-80AD-155989B5694F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OpenCVdemo.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/OpenCV DLLs/opencv_videoio_msmf4100_64.dll</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/OpenCV DLLs/opencv_world4100.dll</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/OpenCV DLLs</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">OpenCVdemo</Property>
+				<Property Name="TgtF_internalName" Type="Str">OpenCVdemo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">OpenCVdemo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1FA2B599-1512-4604-8660-6E96B9842B5E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">OpenCVdemo.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
